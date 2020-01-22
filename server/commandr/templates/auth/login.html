@@ -1,0 +1,23 @@
+<!-- Code for this file taken and adapted from: -->
+<!-- https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=simple-login-form -->
+
+{% extends 'base.html' %}
+
+{% block title %}Log In{% endblock %}
+
+{% block content %}
+    <div class="login-form">
+        <form method="post">
+            <h2 class="text-center">Log In</h2>       
+            <div class="form-group">
+                <input name="username" id="username" type="text" class="form-control" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input name="password" type="password" class="form-control" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Log In</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}
