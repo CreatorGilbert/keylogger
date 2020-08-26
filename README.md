@@ -1,4 +1,4 @@
-# cse4471-keylogger
+# keylogger
 
 ## Adding SSL to Server
 1. Navigate into the `server` folder.
